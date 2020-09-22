@@ -1,0 +1,240 @@
+*{
+margin: 0;
+padding:0;
+}
+/* primary background;#fff
+Secondary color: #f0f0f0f
+
+font color; blacksecondary color:
+background: f0f0f0;
+
+
+cat color: b4ad9e;
+
+playfiardisplay
+ */
+ /* global css section */
+ .body{
+font-family: 'Playfair Display', serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,input,button{
+font-family: 'Playfair Display', serif;
+}
+
+.container{
+width:1140px;
+margin:0 auto;
+
+}
+a:hover,a{
+text-decoration: none;
+}
+/* HEDER SECTION CSS HERE  */
+.header{
+width: 100%;
+display: flow-root;
+}
+.main-header{
+width: 100%;
+float: left;
+padding: 30px 0;
+}
+
+.logo{
+width: 30%;
+float: left;
+}
+
+.menu-item{
+width: 70%;
+float: right;
+text-align: right;
+}
+
+.menu-item ul li{
+list-style: :none;
+display: inline-block;
+margin-left:10px;
+
+}
+.menu-item ul li a{
+text-transform: uppercase;
+
+}
+
+/* banner post here */
+.banner-post{
+width: 100%;
+}
+
+
+
+.post{
+width: 100%;
+}
+
+
+.post-details{
+margin: 80px
+}
+
+.post-details span{
+text-transform: uppercase;
+color:#b4ad9e;
+}
+.post-details h1{
+margin:18px 0;
+font-weight: 600;
+}
+
+.post-details P{
+margin-bottom: 30PX;
+
+}
+
+
+/*  blog gallery section starts from here*/
+
+.blog-gallery{
+  width: 100%;
+  display: flow-root;
+}
+
+
+.gallery{
+  width: 100%;
+  float: left;
+}
+
+
+.left{
+  width: 46%;
+  float: left;
+  height: 100px;
+  margin: 20px;
+}
+
+
+.right{
+  width: 46%;
+  float: left;
+  margin: 20px;
+}
+
+.post-body img{
+margin-bottom: 26px
+}
+
+.post-body span{
+  text-transform: uppercase;
+  color:#b4ad9e;
+
+}
+
+.post-body h1{
+margin: 26px 0;
+}
+
+.post-body p{
+margin-bottom: 26px;
+}
+.subscription{
+width:100%;
+display: flow-root;
+background: #f0f0f0;
+padding: 80px 0;
+text-align: center;
+}
+
+.title{
+margin-bottom: 30px;
+}
+
+
+.title h1{
+font-weight:400;
+}
+
+form{
+  position: relative;
+}
+
+form input{
+width:30% ;
+padding: 20px 0px;
+border:none;
+background: transparent;
+border-bottom: 2px solid black;
+}
+
+form input:focus{
+outline:none;
+}
+
+form  i{
+  position: absolute;
+  top: 22px;
+  right:36%;
+}
+
+/* load more section css */
+.load-more{
+padding: 80px 0;
+text-align: center;
+dislay:flow-root;
+}
+
+.button button{
+padding: 20px 35px;
+background-color: transparent;
+border-radius: 0;
+outline:none;
+border:none;
+border:1px solid black;
+transition:  all 0.5s ease-in-out;
+font-size: 18px;
+}
+
+.button button:hover{
+cursor: pointer;
+background:#f0f0f0;
+color: black;
+transition:  all 0.5s ease-in-out;
+}
+
+.footer{
+width:100%;
+background:#f0f0f0;
+overflow: hidden;
+}
+
+.footer-body{
+width:100%;
+float:left;
+padding: 30px 0;
+}
+
+.footer-left{
+width:50%;
+float:left;
+text-align: left;
+}
+
+.footer-right{
+width:50%;
+float:right;
+text-align: right;
+}
+
+
+.footer-left ul li,.footer-right ul li{
+list-style: none;
+display: inline-block;
+}
+.footer-left ul li{
+margin-right:20px;
+}
+.footer-right ul li{
+margin-left:20px;
+}
